@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: suzuki-shunsuke/github-action-renovate-config-validator@latest
+      - uses: suzuki-shunsuke/github-action-renovate-config-validator@1.1.1
         with:
           config_file_path: |
             .github/renovate.json
